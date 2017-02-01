@@ -1,0 +1,211 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SabermetricsProgram
+</name>
+</assembly>
+<members>
+<member name="T:BaseballProgram.BaseballProgramDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.BattingStatsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.PitchingStatsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.RosterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.SeasonPitchingStatsCalcDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.SeasonBattingStatsCalcDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.LoginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.BattingStatsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.PitchingStatsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.RosterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.SeasonPitchingStatsCalcRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.SeasonBattingStatsCalcRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.LoginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.BattingStatsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.PitchingStatsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.RosterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.SeasonPitchingStatsCalcRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.SeasonBattingStatsCalcRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSet.LoginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSetTableAdapters.BattingStatsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSetTableAdapters.PitchingStatsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSetTableAdapters.RosterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSetTableAdapters.SeasonPitchingStatsCalcTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSetTableAdapters.SeasonBattingStatsCalcTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSetTableAdapters.LoginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BaseballProgram.BaseballProgramDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(BaseballProgram.BaseballProgramDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BaseballProgram.BaseballProgramDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(BaseballProgram.BaseballProgramDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BaseballProgram.BaseballProgramDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(BaseballProgram.BaseballProgramDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BaseballProgram.BaseballProgramDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BaseballProgram.BaseballProgramDataSetTableAdapters.TableAdapterManager.UpdateAll(BaseballProgram.BaseballProgramDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BaseballProgram.BaseballProgramDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BaseballProgram.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:BaseballProgram.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:BaseballProgram.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:BaseballProgram.My.Resources.Resources.baseball">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BaseballProgram.My.Resources.Resources.home">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BaseballProgram.My.Resources.Resources.home1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BaseballProgram.My.Resources.Resources.sabermetrics">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

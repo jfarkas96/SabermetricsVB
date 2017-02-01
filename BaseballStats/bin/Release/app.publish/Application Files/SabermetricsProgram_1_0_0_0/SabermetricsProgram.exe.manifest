@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SabermetricsProgram.exe" version="1.0.0.0" publicKeyToken="6e28acab902e3fe7" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="baseball(2).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SabermetricsProgram" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="SabermetricsProgram.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SabermetricsProgram.exe" size="499200">
+      <assemblyIdentity name="SabermetricsProgram" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>nFVGO/Jap53ai9YPZZfbXuID444=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsApplication1.exe" size="513024">
+      <assemblyIdentity name="WindowsApplication1" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>AmfvIKjh/TPwgrv7o1qqxtwSdlg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="baseball(2).ico" size="9662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VsDIazlmyOK6XWUhP6v9fgX2d6w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="BaseballProgram.accdb" size="5062656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qalzX2gBt34t2uzAIgONmKu+vAY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SabermetricsProgram.exe.config" size="1666">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gzIg9dD87WbJPmSzyoQizFTshW8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=OfficeKids\Justin" issuerKeyHash="3a1ac5071f65174ddf07575ed5da36c9f16c8eaf" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>lpmQTkrtZHKYtGCQLVKqmIQ0Cek=</DigestValue></Reference></SignedInfo><SignatureValue>ylYdEkxJ80jU/VWbZK6laJKufSzZeYtmXt3eITnDmSYkZz7FSS+6sSx/rE4PshQKIsA83+jJZbzpxPWdgrctdXKvu8/beNGNpFEIldD30O8X8b9YyYCWIJiejac9vjGvbi51XpOaRcq9QiZ2p7rXeKW+G5ZFdfLkv//bceNsUJs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1K2Zhx7pOXFYtWTgLkxq/c89JGUUIqcMGPVgEorGvvZlQtXfjJbb88JSbav+ilPR/LQZKw3sR7OzbnyjRxSDrZ+jjYLcTQVZFIlvpzFJpuC80nk/6ANvJIt2DsMbIjgCGaA6crmRFERd5Y3wltuy47LOIx2kapf2Ip8EK/dzqgk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e909348498aa522d9060b4987264ed4a4e909996" Description="" Url=""><as:assemblyIdentity name="SabermetricsProgram.exe" version="1.0.0.0" publicKeyToken="6e28acab902e3fe7" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=OfficeKids\Justin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>MRzPvs5uYvvtx2G+135VKKX+5hM=</DigestValue></Reference></SignedInfo><SignatureValue>Mak/OxRs7g924pcLbmMjzpj0Svj6Vj9IIz1RDKFtVAMtsohV2vJiV2eXouYxyKWs7FcsT6Z3wXa13i6AeZa6UjPVaUuUl+2LaW/VGjFVP0y75Pk/k3dFdguSDH9NfGfnFc/pL5L6JNyWN+vxAGjrbBRADVk0fK8LUV0k5NWJO6Q=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1K2Zhx7pOXFYtWTgLkxq/c89JGUUIqcMGPVgEorGvvZlQtXfjJbb88JSbav+ilPR/LQZKw3sR7OzbnyjRxSDrZ+jjYLcTQVZFIlvpzFJpuC80nk/6ANvJIt2DsMbIjgCGaA6crmRFERd5Y3wltuy47LOIx2kapf2Ip8EK/dzqgk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQfVcuaP9JkJ9DIlqVU+TumjANBgkqhkiG9w0BAQUFADAtMSswKQYDVQQDHiIATwBmAGYAaQBjAGUASwBpAGQAcwBcAEoAdQBzAHQAaQBuMB4XDTEzMTEyNDEwNDg1M1oXDTE0MTEyNDE2NDg1M1owLTErMCkGA1UEAx4iAE8AZgBmAGkAYwBlAEsAaQBkAHMAXABKAHUAcwB0AGkAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1K2Zhx7pOXFYtWTgLkxq/c89JGUUIqcMGPVgEorGvvZlQtXfjJbb88JSbav+ilPR/LQZKw3sR7OzbnyjRxSDrZ+jjYLcTQVZFIlvpzFJpuC80nk/6ANvJIt2DsMbIjgCGaA6crmRFERd5Y3wltuy47LOIx2kapf2Ip8EK/dzqgkCAwEAATANBgkqhkiG9w0BAQUFAAOBgQCJQOtIQ5ajr2gWhRI6Ph5ygXhRVKA4tSzTG8I80P+uaaC2tdd7O/lJHOg0ajSEgK3KzIQGwvm6ybMbqNdUtjHVb5nDsVTLwHFtWD4i3XhM54xkEA/y0NyBJ1CaQpqH/Ix4vLWINuEyF0tk2vzizL2w2cvab8FoH8fIUes47L2ZaQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

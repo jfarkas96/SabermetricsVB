@@ -1,0 +1,52 @@
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\Resources\home.png
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\SabermetricsProgram.exe.config
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\SabermetricsProgram.exe.manifest
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\SabermetricsProgram.application
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\SabermetricsProgram.exe
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\SabermetricsProgram.pdb
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\SabermetricsProgram.xml
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballStats.vbproj.ResolveComReference.cache
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.frmAddGameStats.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.frmAddPlayer.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.frmLogIn.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.frmHome.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.frmGlossaryOfAbbreviations.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.frmFormulasForStatistics.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.frmEditRoster.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.frmSeasonBattingStats.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.frmSeasonPitchingStats.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.frmStatsExplained.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.frmInputBattingStats.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.frmInputPitchingStats.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.Resources.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballStats.vbproj.GenerateResource.Cache
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\SabermetricsProgram.exe.manifest
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\SabermetricsProgram.application
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\SabermetricsProgram.exe
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\SabermetricsProgram.xml
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\SabermetricsProgram.pdb
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballStats.vbprojResolveAssemblyReference.cache
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.frmCreateAccount.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\BaseballProgram.accdb
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballProgram.frmUpdatePlayer.resources
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\BaseballProgramDataSet.Designer.vb
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\BaseballProgramDataSet.vb
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\BaseballProgramDataSet.xsc
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\BaseballProgramDataSet.xsd
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\BaseballProgramDataSet.xss
+C:\Users\jfarkas\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\BaseballStats_1_TemporaryKey.pfx
+C:\Users\farka\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\bin\Debug\SabermetricsProgram.exe.config
+C:\Users\farka\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\farka\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballStats.vbproj.ResolveComReference.cache
+C:\Users\farka\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\SabermetricsProgram.exe
+C:\Users\farka\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\SabermetricsProgram.xml
+C:\Users\farka\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\SabermetricsProgram.pdb
+C:\Users\farka\Documents\Visual Studio 2010\Projects\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballStats.vbprojResolveAssemblyReference.cache
+C:\Users\farka\Documents\GitHub\Sabermetrics\BaseballStats\bin\Debug\SabermetricsProgram.exe.config
+C:\Users\farka\Documents\GitHub\Sabermetrics\BaseballStats\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\farka\Documents\GitHub\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballStats.vbproj.ResolveComReference.cache
+C:\Users\farka\Documents\GitHub\Sabermetrics\BaseballStats\obj\x86\Debug\SabermetricsProgram.exe
+C:\Users\farka\Documents\GitHub\Sabermetrics\BaseballStats\obj\x86\Debug\SabermetricsProgram.xml
+C:\Users\farka\Documents\GitHub\Sabermetrics\BaseballStats\obj\x86\Debug\SabermetricsProgram.pdb
+C:\Users\farka\Documents\GitHub\Sabermetrics\BaseballStats\obj\x86\Debug\BaseballStats.vbprojResolveAssemblyReference.cache

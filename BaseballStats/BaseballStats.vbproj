@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D353B5E9-B0A9-46BD-801A-8F0CDB3D8173}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BaseballProgram.My.MyApplication</StartupObject>
+    <RootNamespace>BaseballProgram</RootNamespace>
+    <AssemblyName>SabermetricsProgram</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Justin\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SabermetricsProgram.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SabermetricsProgram.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\baseball%282%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>89F2BACBFD280B4ECAAEE751F7B93D0CB8DCE6A3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>BaseballStats_1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseballProgramDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BaseballProgramDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="BaseballProgramDataSet.vb">
+      <DependentUpon>BaseballProgramDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="frmCreateAccount.Designer.vb">
+      <DependentUpon>frmCreateAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreateAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSeasonBattingStats.Designer.vb">
+      <DependentUpon>frmSeasonBattingStats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSeasonBattingStats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddGameStats.Designer.vb">
+      <DependentUpon>frmAddGameStats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddGameStats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddPlayer.Designer.vb">
+      <DependentUpon>frmAddPlayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddPlayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogIn.Designer.vb">
+      <DependentUpon>frmLogIn.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHome.Designer.vb">
+      <DependentUpon>frmHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGlossary.Designer.vb">
+      <DependentUpon>frmGlossary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGlossary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFormulas.Designer.vb">
+      <DependentUpon>frmFormulas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFormulas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditRoster.Designer.vb">
+      <DependentUpon>frmEditRoster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditRoster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSeasonPitchingStats.Designer.vb">
+      <DependentUpon>frmSeasonPitchingStats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSeasonPitchingStats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStatsExplained.Designer.vb">
+      <DependentUpon>frmStatsExplained.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStatsExplained.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInputBattingStats.Designer.vb">
+      <DependentUpon>frmInputBattingStats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInputBattingStats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInputPitchingStats.Designer.vb">
+      <DependentUpon>frmInputPitchingStats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInputPitchingStats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdatePlayer.Designer.vb">
+      <DependentUpon>frmUpdatePlayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdatePlayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAddGameStats.resx">
+      <DependentUpon>frmAddGameStats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddPlayer.resx">
+      <DependentUpon>frmAddPlayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreateAccount.resx">
+      <DependentUpon>frmCreateAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogIn.resx">
+      <DependentUpon>frmLogIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHome.resx">
+      <DependentUpon>frmHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGlossary.resx">
+      <DependentUpon>frmGlossary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFormulas.resx">
+      <DependentUpon>frmFormulas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditRoster.resx">
+      <DependentUpon>frmEditRoster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSeasonBattingStats.resx">
+      <DependentUpon>frmSeasonBattingStats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSeasonPitchingStats.resx">
+      <DependentUpon>frmSeasonPitchingStats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatsExplained.resx">
+      <DependentUpon>frmStatsExplained.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInputBattingStats.resx">
+      <DependentUpon>frmInputBattingStats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInputPitchingStats.resx">
+      <DependentUpon>frmInputPitchingStats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdatePlayer.resx">
+      <DependentUpon>frmUpdatePlayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="BaseballProgramDataSet.xsc">
+      <DependentUpon>BaseballProgramDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BaseballProgramDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BaseballProgramDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BaseballProgramDataSet.xss">
+      <DependentUpon>BaseballProgramDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BaseballStats_1_TemporaryKey.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="BaseballStats_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="baseball%282%29.ico" />
+    <Content Include="BaseballProgram.accdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\baseball%282%29.ico" />
+    <Content Include="Resources\home.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sabermetrics.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{B691E011-1797-432E-907A-4D8C69339129}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
